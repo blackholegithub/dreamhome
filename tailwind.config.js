@@ -5,6 +5,12 @@ export default {
     extend: {
       width: {
         '95': '95%',
+      },
+      height: {
+        'header': '54px',
+      },
+      boxShadow: {
+        'shadowNav': ' 0px 4px 18px 0px rgba(0, 0, 0, 0.0784313725)',
       }
     },
   },

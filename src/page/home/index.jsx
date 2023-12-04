@@ -14,7 +14,7 @@ import CommentCustomers from "../../component/CommentCustomers"
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <Header/>
       <Nav />
       <FeaturedProperties />   
