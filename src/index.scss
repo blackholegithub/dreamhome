@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;600&family=Open+Sans:wght@600;800&family=Ubuntu:wght@300;400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  --black-background: #2f2f2f;
+  --white-background: #FFFAEF;
+  
+
+  --white-text: #f6f6f6;
+  --black-text: #1f1a1a;
+
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", "Open Sans", "Geologica", sans-serif;
+}
+
+body {
+  font-size: 22px;
+  line-height: 1.8;
+  font-weight: 400;
+  background-color: var(--white-background);
+  background-size: cover;
+  color: var(--black-text);
+  padding: 0 !important;
+}
+
+
+
+
+
