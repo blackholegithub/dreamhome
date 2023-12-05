@@ -4,19 +4,35 @@
 @tailwind utilities;
 
 :root {
-
   --black-background: #2f2f2f;
-  --white-background: #FFFAEF;
-  --height-header : 54px;
+  --white-background: #fffaef;
+  --height-header: 54px;
 
   --white-text: #f6f6f6;
   --black-text: #1f1a1a;
-  --hover-text: #FFA920;
+  --hover-text: #ffa920;
+
 
 }
 
-html{
-   scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 * {
@@ -35,8 +51,3 @@ body {
   color: var(--black-text);
   padding: 0 !important;
 }
-
-
-
-
-

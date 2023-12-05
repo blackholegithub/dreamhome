@@ -8,23 +8,23 @@ const Nav = () => {
       </a>
       <div>
         <ul className="xl:flex hidden w-full ">
-          <li className="flex items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
+          <li className="flex capitalize items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
             <span>Home</span>
             <box-icon name='chevron-down'></box-icon>
           </li>
-          <li className="flex items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
+          <li className="flex capitalize items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
             <span>Property</span>
             <box-icon name='chevron-down'></box-icon>
           </li>
-          <li className="flex items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
+          <li className="flex capitalize items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
             <span>Page</span>
             <box-icon name='chevron-down'></box-icon>
           </li>
-          <li className="flex items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
+          <li className="flex capitalize  items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
             <span>Blog</span>
             <box-icon name='chevron-down'></box-icon>
           </li>
-          <li className="flex items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
+          <li className="flex capitalize items-center px-2 cursor-pointer text-xl  hover:text-[var(--hover-text)] font-bold transition-colors duration-300 ease-in-out">
             <span>Contact</span>
           </li>
         </ul>
